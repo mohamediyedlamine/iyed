@@ -13,7 +13,7 @@ def countdown(t):
     while True:
         if (until - datetime.datetime.now()).total_seconds() > 0:
             stdout.flush()
-            stdout.write("\r "+Fore.MAGENTA+"[*]"+Fore.WHITE+" Mns Ta9ta7em => " + str((until - datetime.datetime.now()).total_seconds()) + " sec left ")
+            stdout.write("\r "+Fore.MAGENTA+"[*]"+Fore.WHITE+" Speedy-Hosting DDOS is runig => " + str((until - datetime.datetime.now()).total_seconds()) + " sec left ")
         else:
             stdout.flush()
             stdout.write("\r "+Fore.MAGENTA+"[*]"+Fore.WHITE+" Attack Done !                                   \n")
